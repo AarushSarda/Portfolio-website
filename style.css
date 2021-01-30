@@ -81,34 +81,49 @@ p {
 
 }
 .menu {
-    list-style: none;
     font-family: cursive;
-    position: absolute;
-    top:10px;
-    right: 30px;
+    position: fixed;
+    top:0px;
     z-index: 10;
-    cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+    background:black;
 }
 .links{
-    float: left;
-    color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    font-family: fantasy;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: 'Lobster', cursive;
     font-size: 20px;
 }
 .links:hover {
-    background-color:red;
+    font-size: 25px;
+    text-decoration: underline;
 }
 html {
     scroll-behavior: smooth;
 }
 a {
     text-decoration: none;
+    color: fuchsia;
+    text-shadow: 2px 2px lime ;
+}
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: darkcyan;
 }
 .article:hover {
-    color: orange;
+    color: mediumvioletred;
+}
+#contact{
+    background-color: magenta;
+}
+.contact a {
+    color: floralwhite;
+    text-shadow: none;
+}
+.contact h3 {
+    display: inline;
 }
     
